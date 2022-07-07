@@ -15,25 +15,25 @@
 
 Если сумма переменных ugoll, ugol2 и ugol3 составляет 180, то вывести на экран сообщение “Это углы одного треугольника”; в противном случае 
 вывести на экран сообщение “Это не углы одного треугольника”
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_1.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_1.java)
 ***
 2.Программа принимает с клавиатуры два числа и проверяет равны они друг другу или нет
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_2.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_2.java)
 ***
 3.Напишите программу, которая принимает с клавиатуры число и превращает его в положительное, если оно отрицательное либо в ноль во всех остальных случаях.
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_3.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_3.java)
 ***
 4.Напишите программу, которая принимает с клавиатуры два различных числа. Класс должен вывести на экран эти числа в порядке возрастания - в одной строке, а в другой - их же, но в порядке убывани
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_4.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_4.java)
 ***
 5.Напишите программу, которая принимает с клавиатуры целое число и выводит на экран его квадрат, но только в случае, если введенное число отрицательно. В противном случае - на экран выводится сообщение “Ошибка”.  
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_5.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_5.java)
 
 6.Напишите программу, которая принимает с клавиатуры двузначное положительное число и проверяет, какая из его двух цифр является большей. В соответствии с результатом проверки надо вывести на экран соответствующее текстовое сообщение. Не следует выводить на экран никакого сообщения, если число составлено из одинаковых цифр. 
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_5.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_6.java)
 
 7.Напишите класс, который принимает с клавиатуры целое трехзначное положительное число и изменяет его следующим образом:
  • для чисел, больших 500, - переставляет местами числа единиц и сотен (вместо 672 - 276); 
 • в остальных числах переставляются местами числа десятков и единиц (вместо 363 - 336). 
 Программа должна вывести на экран новое значение переменной.
-[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/main/Program_5.java)
+[Посмотреть решение](https://github.com/truffle-piece/java_assignments/blob/if_else/Program_7.java)
