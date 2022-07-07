@@ -4,8 +4,7 @@ public class Program_4 {
 
 	public static void main(String[] args) {
 		
-		System.out.println("СРАВНИТЕ ЧИСЛА");
-		System.out.println("");
+		System.out.println("СРАВНИТЕ ЧИСЛА \n");
 		Scanner num = new Scanner(System.in);
 		int a, b;
 		System.out.println("Введите первое число");
