@@ -1,26 +1,20 @@
+package If_else;
 import java.util.Scanner;
 
 public class Program_4 {
-
-	public static void main(String[] args) {
-		
-		System.out.println("СРАВНИТЕ ЧИСЛА");
-		System.out.println("");
-		Scanner num = new Scanner(System.in);
-		int a, b;
-		System.out.println("Введите первое число");
-		a = num.nextInt();
-		System.out.println("Введите второе число");
-		b = num.nextInt();
-		if (a == b) {
-			System.out.println("Числа ровны");
-		} else if (a < b) {
-			System.out.println("Первое число меньше второго");
-		}else {
-			System.out.println("Первое число больше второго");
-		}
-		num.close();
-
-	}
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a, b, c;
+        System.out.print("Введите первое число: ");
+        a = sc.nextInt();
+        System.out.print("Введите второе число: ");
+        b = sc.nextInt();
+        if (a<b){
+            c = b;
+            b = a;
+            a = c;
+        }
+        System.out.println(a + ", " + b);
+        System.out.println(b + ", " + a);
+    }
 }
