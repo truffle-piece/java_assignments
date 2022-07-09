@@ -12,12 +12,12 @@ public class Program_1 {
 		// Если значение переменной avg равно 100,то выведи на экран сообщение “Молодец” 
 		System.out.print("Введите число: ");
 		avg = sc.nextInt();
-		System.out.println(avg==100?"Молодец \n":null);
+		System.out.println(avg==100?"Молодец \n":"");
 
 		// Если значение переменной mark меньше 60, то увеличить это значение на 10%
 		System.out.print("Введите число: ");
 		mark = sc.nextInt();
-		System.out.println(mark<60?mark+(mark*0.1):null);
+		System.out.println(mark<60?mark+(mark*0.1):"");
 
 		// Если значение переменной one больше значения переменной two,
 		// то вывести на экран значение one; в противном случае - вывести на экран значение переменной two 
