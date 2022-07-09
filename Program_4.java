@@ -1,26 +1,25 @@
+package cycles;
 import java.util.Scanner;
 
 public class Program_4 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int i, j = 0, x;
+        x = sc.nextInt();
+        for(i=2; i<x; i++){
+            
+            // j++;
+            // System.out.print((x / i) + " ");
 
-	public static void main(String[] args) {
-		
-		System.out.println("СРАВНИТЕ ЧИСЛА");
-		System.out.println("");
-		Scanner num = new Scanner(System.in);
-		int a, b;
-		System.out.println("Введите первое число");
-		a = num.nextInt();
-		System.out.println("Введите второе число");
-		b = num.nextInt();
-		if (a == b) {
-			System.out.println("Числа ровны");
-		} else if (a < b) {
-			System.out.println("Первое число меньше второго");
-		}else {
-			System.out.println("Первое число больше второго");
-		}
-		num.close();
+            if(x % i == 0){
+                j++;
+                System.out.print((x / i) + " ");
+            }
+            sc.close();
+        }
+        System.out.print("\nКоличество делителей числа "+ x + " равно " + j);
 
-	}
-
+    }
+    
 }
